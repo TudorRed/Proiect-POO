@@ -80,40 +80,68 @@ public class Main {
 
         System.out.println("\n=== DULCETURI ===");
         for(Object o : listaDulceata) { System.out.println(o); }
-        // --- PASUL 4: APELARE METODE DIN CLASE DIFERITE ---
+     
         System.out.println("\n------------------------------------------------");
         System.out.println("   FILTRARE PRODUSE (CLASE SEPARATE)   ");
         System.out.println("------------------------------------------------");
         
         Scanner scanner = new Scanner(System.in);
-
-        // 1. Instantiem obiectele care se ocupa de filtrare
         FiltruPret filtruP = new FiltruPret();
         FiltruTara filtruT = new FiltruTara();
 
-
-        // 2. Testare Filtru Pret
-        System.out.print("\nIntrodu pretul maxim: ");
-        double pretUser = scanner.nextDouble();
-        scanner.nextLine(); // consuma newline
-
-        System.out.println("\n[Rezultate Condimente]");
-        filtruP.afisareSubPret(listaCondimente, pretUser);
+       
+        System.out.println("\n================================================");
+        System.out.println("   [PASUL 4] FILTRARE CONDIMENTE & OTET   ");
+        System.out.println("================================================");
         
-        System.out.println("\n[Rezultate Dulceata]");
-        filtruP.afisareSubPret(listaDulceata, pretUser);
+   
+        System.out.print("\n[TU] Introdu pretul maxim pentru cautare (ex: 15): ");
+        double pretUser = scanner.nextDouble();
+        scanner.nextLine(); 
+
+        System.out.println("\n---> Rezultate Condimente (sub " + pretUser + " lei):");
+        ArrayList<Object> rezCondimentePret = filtruP.filtreazaDupaPret(listaCondimente, pretUser);
+        for(Object o : rezCondimentePret) System.out.println(o);
+        
+        System.out.println("\n---> Rezultate Otet (sub " + pretUser + " lei):");
+        ArrayList<Object> rezOtetPret = filtruP.filtreazaDupaPret(listaOtet, pretUser);
+        for(Object o : rezOtetPret) System.out.println(o);
 
 
-        // 3. Testare Filtru Tara
-        System.out.print("\nIntrodu tara de origine: ");
+        
+        System.out.print("\n[TU] Introdu tara de origine (ex: Romania, Italia): ");
         String taraUser = scanner.nextLine();
 
-        System.out.println("\n[Rezultate Condimente]");
-        filtruT.afisareDinTara(listaCondimente, taraUser);
+        System.out.println("\n---> Rezultate Condimente (din " + taraUser + "):");
+        ArrayList<Object> rezCondimenteTara = filtruT.filtreazaDupaTara(listaCondimente, taraUser);
+        for(Object o : rezCondimenteTara) System.out.println(o);
 
-        System.out.println("\n[Rezultate Otet]");
-        filtruT.afisareDinTara(listaOtet, taraUser);
+        System.out.println("\n---> Rezultate Otet (din " + taraUser + "):");
+        ArrayList<Object> rezOtetTara = filtruT.filtreazaDupaTara(listaOtet, taraUser);
+        for(Object o : rezOtetTara) System.out.println(o);
+
+
+    
+        System.out.println("\n\n================================================");
+        System.out.println("   [PASUL 4] FILTRARE SIROP & DULCEATA   ");
+        System.out.println("================================================");
+
+       
+        System.out.println("\n---> Rezultate Dulceata (sub " + pretUser + " lei - valoare introdusa mai sus):");
+        ArrayList<Object> rezDulceataPret = filtruP.filtreazaDupaPret(listaDulceata, pretUser);
+        if(rezDulceataPret.isEmpty()) System.out.println("Nicio dulceata gasita la pretul asta.");
+        else for(Object o : rezDulceataPret) System.out.println(o);
+
+        System.out.println("\n---> Rezultate Sirop (din " + taraUser + " - tara introdusa mai sus):");
+        ArrayList<Object> rezSiropTara = filtruT.filtreazaDupaTara(listaSirop, taraUser);
+        if(rezSiropTara.isEmpty()) System.out.println("Niciun sirop gasit din tara asta.");
+        else for(Object o : rezSiropTara) System.out.println(o);
+
+       
+        System.out.println("\n\n[INFO] Se deschide fereastra grafica...");
+       
+        new InterfataGrafica(listaCondimente, listaOtet, listaSirop, listaDulceata);
         
-        // scanner.close();
+   
     }
 }

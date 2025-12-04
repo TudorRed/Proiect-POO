@@ -2,26 +2,16 @@ package proiect;
 import java.util.ArrayList;
 
 public class FiltruTara {
-
-    public FiltruTara() {}
-
-    public void afisareDinTara(ArrayList<Object> lista, String taraCautata) {
-        System.out.println("--- Produse din " + taraCautata + " ---");
-        boolean gasit = false;
-
+    public ArrayList<Object> filtreazaDupaTara(ArrayList<Object> lista, String taraCautata) {
+        ArrayList<Object> listaFiltrata = new ArrayList<>();
         for (Object obj : lista) {
             if (obj instanceof Alimentare) {
                 Alimentare produs = (Alimentare) obj;
-                // Folosim equalsIgnoreCase ca sa gaseasca si "romania" si "Romania"
                 if (produs.taraOrigine.equalsIgnoreCase(taraCautata)) {
-                    System.out.println(produs.toString());
-                    gasit = true;
+                    listaFiltrata.add(produs);
                 }
             }
         }
-
-        if (!gasit) {
-            System.out.println("Nu s-au gasit produse din " + taraCautata + ".");
-        }
+        return listaFiltrata;
     }
 }
