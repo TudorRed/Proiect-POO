@@ -1,5 +1,6 @@
 package proiect;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
@@ -79,5 +80,40 @@ public class Main {
 
         System.out.println("\n=== DULCETURI ===");
         for(Object o : listaDulceata) { System.out.println(o); }
+        // --- PASUL 4: APELARE METODE DIN CLASE DIFERITE ---
+        System.out.println("\n------------------------------------------------");
+        System.out.println("   FILTRARE PRODUSE (CLASE SEPARATE)   ");
+        System.out.println("------------------------------------------------");
+        
+        Scanner scanner = new Scanner(System.in);
+
+        // 1. Instantiem obiectele care se ocupa de filtrare
+        FiltruPret filtruP = new FiltruPret();
+        FiltruTara filtruT = new FiltruTara();
+
+
+        // 2. Testare Filtru Pret
+        System.out.print("\nIntrodu pretul maxim: ");
+        double pretUser = scanner.nextDouble();
+        scanner.nextLine(); // consuma newline
+
+        System.out.println("\n[Rezultate Condimente]");
+        filtruP.afisareSubPret(listaCondimente, pretUser);
+        
+        System.out.println("\n[Rezultate Dulceata]");
+        filtruP.afisareSubPret(listaDulceata, pretUser);
+
+
+        // 3. Testare Filtru Tara
+        System.out.print("\nIntrodu tara de origine: ");
+        String taraUser = scanner.nextLine();
+
+        System.out.println("\n[Rezultate Condimente]");
+        filtruT.afisareDinTara(listaCondimente, taraUser);
+
+        System.out.println("\n[Rezultate Otet]");
+        filtruT.afisareDinTara(listaOtet, taraUser);
+        
+        // scanner.close();
     }
 }
