@@ -1,0 +1,23 @@
+=== RAPORT SALVARE DATE ===
+Numar produse: 10
+
+Produs: Dulceata Visine | Producator: Raureni | Pret: 15.0 lei | Cantitate: 350.0 g/ml | Expira: 2027 | Bio: Nu | Tara: Romania | Fruct: Visine | Zahar: 45.0% | Fara conservanti: Nu | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Capsuni | Producator: Bun de Tot | Pret: 22.0 lei | Cantitate: 300.0 g/ml | Expira: 2026 | Bio: Da | Tara: Romania | Fruct: Capsuni | Zahar: 70.0% | Fara conservanti: Da | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Afine | Producator: Topoloveni | Pret: 25.0 lei | Cantitate: 350.0 g/ml | Expira: 2027 | Bio: Da | Tara: Romania | Fruct: Afine | Zahar: 100.0% | Fara conservanti: Da | Ambalaj: borcan
+--------------------------------------------------
+Produs: Marmelada | Producator: Magiun | Pret: 18.0 lei | Cantitate: 400.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Romania | Fruct: Prune | Zahar: 80.0% | Fara conservanti: Nu | Ambalaj: cutie
+--------------------------------------------------
+Produs: Dulceata Caise | Producator: Raureni | Pret: 14.0 lei | Cantitate: 350.0 g/ml | Expira: 2027 | Bio: Nu | Tara: Romania | Fruct: Caise | Zahar: 45.0% | Fara conservanti: Nu | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Ardei Iute | Producator: Camara | Pret: 30.0 lei | Cantitate: 200.0 g/ml | Expira: 2026 | Bio: Da | Tara: Romania | Fruct: Ardei iute | Zahar: 60.0% | Fara conservanti: Da | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Smochine | Producator: Olympia | Pret: 19.0 lei | Cantitate: 300.0 g/ml | Expira: 2028 | Bio: Nu | Tara: Grecia | Fruct: Smochine | Zahar: 50.0% | Fara conservanti: Nu | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Zmeura | Producator: Raureni | Pret: 16.0 lei | Cantitate: 350.0 g/ml | Expira: 2027 | Bio: Nu | Tara: Romania | Fruct: Zmeura | Zahar: 45.0% | Fara conservanti: Nu | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Gutui | Producator: Bunica | Pret: 13.0 lei | Cantitate: 370.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Romania | Fruct: Gutui | Zahar: 40.0% | Fara conservanti: Nu | Ambalaj: borcan
+--------------------------------------------------
+Produs: Dulceata Mure | Producator: Topoloveni | Pret: 24.0 lei | Cantitate: 350.0 g/ml | Expira: 2027 | Bio: Da | Tara: Romania | Fruct: Mure | Zahar: 100.0% | Fara conservanti: Da | Ambalaj: borcan
+--------------------------------------------------

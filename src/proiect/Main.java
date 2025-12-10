@@ -121,7 +121,6 @@ public class Main {
         for(Object o : rezOtetTara) System.out.println(o);
 
 
-    
         System.out.println("\n\n================================================");
         System.out.println("   [PASUL 4] FILTRARE SIROP & DULCEATA   ");
         System.out.println("================================================");
@@ -143,5 +142,20 @@ public class Main {
         new InterfataGrafica(listaCondimente, listaOtet, listaSirop, listaDulceata);
         
    
+System.out.println("\n\n================================================");
+        System.out.println("   [PASUL 6] SALVARE DATE IN FISIERE .TXT   ");
+        System.out.println("================================================");
+
+        GestionareFisiere gestionare = new GestionareFisiere();
+
+        // 1. Salvare datele tale (RARES)
+        gestionare.scrieInFisier(listaCondimente, "Condimente_Rares.txt");
+        gestionare.scrieInFisier(listaOtet, "Otet_Rares.txt");
+
+        // 2. Salvare datele colegului (COLEGUL)
+        gestionare.scrieInFisier(listaSirop, "Sirop_Colegu.txt");
+        gestionare.scrieInFisier(listaDulceata, "Dulceata_Colegu.txt");
+        
+        System.out.println("Toate fisierele au fost generate in folderul proiectului!");
     }
 }

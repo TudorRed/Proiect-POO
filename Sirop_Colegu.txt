@@ -1,0 +1,23 @@
+=== RAPORT SALVARE DATE ===
+Numar produse: 10
+
+Produs: Sirop Artar | Producator: MapleJoe | Pret: 45.0 lei | Cantitate: 250.0 g/ml | Expira: 2028 | Bio: Da | Tara: Canada | Aroma: Artar | Cu zahar: Nu | Fruct: 65% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop tuse | Producator: Meltus | Pret: 25.0 lei | Cantitate: 100.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Romania | Aroma: Plante | Cu zahar: Da | Fruct: 40% | Recipient: plastic
+--------------------------------------------------
+Produs: Sirop Zmeura | Producator: Yo | Pret: 15.0 lei | Cantitate: 700.0 g/ml | Expira: 2025 | Bio: Nu | Tara: Austria | Aroma: Zmeura | Cu zahar: Nu | Fruct: 55% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop Agave | Producator: DmBio | Pret: 30.0 lei | Cantitate: 300.0 g/ml | Expira: 2027 | Bio: Da | Tara: Mexic | Aroma: Agave | Cu zahar: Nu | Fruct: 70% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop Visine | Producator: Laurul | Pret: 12.0 lei | Cantitate: 1000.0 g/ml | Expira: 2025 | Bio: Nu | Tara: Romania | Aroma: Visine | Cu zahar: Nu | Fruct: 60% | Recipient: plastic
+--------------------------------------------------
+Produs: Sirop Patlagina | Producator: Fares | Pret: 18.0 lei | Cantitate: 150.0 g/ml | Expira: 2026 | Bio: Da | Tara: Romania | Aroma: Patlagina | Cu zahar: Da | Fruct: 35% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop Ciocolata | Producator: Monin | Pret: 28.0 lei | Cantitate: 500.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Franta | Aroma: Ciocolata | Cu zahar: Nu | Fruct: 62% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop Menta | Producator: Yo | Pret: 16.0 lei | Cantitate: 700.0 g/ml | Expira: 2025 | Bio: Nu | Tara: Austria | Aroma: Menta | Cu zahar: Nu | Fruct: 50% | Recipient: plastic
+--------------------------------------------------
+Produs: Sirop Soc | Producator: DaciaPlant | Pret: 14.0 lei | Cantitate: 500.0 g/ml | Expira: 2025 | Bio: Da | Tara: Romania | Aroma: Soc | Cu zahar: Nu | Fruct: 45% | Recipient: sticla
+--------------------------------------------------
+Produs: Sirop Caramel | Producator: Monin | Pret: 29.0 lei | Cantitate: 500.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Franta | Aroma: Caramel | Cu zahar: Nu | Fruct: 64% | Recipient: sticla
+--------------------------------------------------

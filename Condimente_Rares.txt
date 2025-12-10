@@ -1,0 +1,23 @@
+=== RAPORT SALVARE DATE ===
+Numar produse: 10
+
+Produs: Piper | Producator: Kamis | Pret: 10.0 lei | Cantitate: 300.0 g/ml | Expira: 2025 | Bio: Nu | Tara: India | Tip: piper | Forma: macinat | Intensitate: 7
+--------------------------------------------------
+Produs: Boia | Producator: Cosmin | Pret: 8.0 lei | Cantitate: 250.0 g/ml | Expira: 2026 | Bio: Nu | Tara: Romania | Tip: boia | Forma: dulce | Intensitate: 5
+--------------------------------------------------
+Produs: Curry | Producator: Kamis | Pret: 15.0 lei | Cantitate: 200.0 g/ml | Expira: 2025 | Bio: Da | Tara: India | Tip: curry | Forma: pudra | Intensitate: 9
+--------------------------------------------------
+Produs: Ghimbir | Producator: Kotanyi | Pret: 18.0 lei | Cantitate: 150.0 g/ml | Expira: 2026 | Bio: Nu | Tara: China | Tip: ghimbir | Forma: pudra | Intensitate: 6
+--------------------------------------------------
+Produs: Chimion | Producator: Cosmin | Pret: 9.0 lei | Cantitate: 180.0 g/ml | Expira: 2025 | Bio: Nu | Tara: Turcia | Tip: chimion | Forma: macinat | Intensitate: 6
+--------------------------------------------------
+Produs: Busuioc | Producator: Kotanyi | Pret: 11.0 lei | Cantitate: 120.0 g/ml | Expira: 2026 | Bio: Da | Tara: Italia | Tip: busuioc | Forma: frunze | Intensitate: 4
+--------------------------------------------------
+Produs: Oregano | Producator: Kotanyi | Pret: 13.0 lei | Cantitate: 140.0 g/ml | Expira: 2026 | Bio: Da | Tara: Grecia | Tip: oregano | Forma: frunze | Intensitate: 5
+--------------------------------------------------
+Produs: Chili | Producator: Kamis | Pret: 17.0 lei | Cantitate: 160.0 g/ml | Expira: 2025 | Bio: Nu | Tara: Mexic | Tip: chili | Forma: pudra | Intensitate: 8
+--------------------------------------------------
+Produs: Scortisoara | Producator: Kotanyi | Pret: 20.0 lei | Cantitate: 200.0 g/ml | Expira: 2026 | Bio: Da | Tara: Vietnam | Tip: scortisoara | Forma: pudra | Intensitate: 7
+--------------------------------------------------
+Produs: Coriandru | Producator: Cosmin | Pret: 12.0 lei | Cantitate: 190.0 g/ml | Expira: 2025 | Bio: Nu | Tara: India | Tip: coriandru | Forma: boabe | Intensitate: 6
+--------------------------------------------------
